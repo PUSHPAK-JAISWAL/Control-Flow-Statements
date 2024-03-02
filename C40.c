@@ -5,7 +5,7 @@ void main()
     for(i=1;i<=10;i++)
     {
         if(i%3==0)
-            continue;
-        printf("\n%d",i);
+            break;
+        printf("%d",i);
     }
 }
